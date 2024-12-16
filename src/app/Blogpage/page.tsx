@@ -154,7 +154,7 @@ const BlogPage = () => {
 
             <div className="text-center">
               <h3 className="text-3xl font-semibold">90 Days Return</h3>
-              <p className="text-lg text-gray-600">No worries! Return within 90 days if you're unsatisfied.</p>
+              <p className="text-lg text-gray-600">No worries! Return within 90 days if you are unsatisfied.</p>
             </div>
 
             <div className="text-center">
