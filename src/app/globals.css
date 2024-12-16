@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playwrite+HR+Lijeva:wght@100..400&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Yuji+Mai&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+@layer components {
+
+    .footer__link:hover {
+        scale: 1.1;
+        
+    }
+
+}
+
+/* Base search input styles */
+.search-input {
+    display: block;
+    width: 100%;
+    max-width: 300px; /* Max width for large devices */
+    padding: 8px 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  /* Responsive styles for different screen sizes */
+  
+  /* For mobile screens */
+  @media (max-width: 640px) {
+    .search-input {
+      max-width: 80%; /* Take up 80% of the width on mobile */
+    }
+  }
+  
+  /* For tablets and small laptops */
+  @media (min-width: 641px) and (max-width: 1024px) {
+    .search-input {
+      max-width: 60%; /* Take up 60% of the width */
+    }
+  }
+  
+  /* For larger devices like laptops and desktops */
+  @media (min-width: 1025px) {
+    .search-input {
+      max-width: 300px; /* Limit width to 300px */
+    }
+  }
+  
+  
+  
+  
+  
+  
+    
